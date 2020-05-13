@@ -1,0 +1,92 @@
+[Root]
+Most Recent Package=SetupSettings1
+
+
+[Package|SetupSettings1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\ODNR_Geology\VB_Projects\Package
+
+[Package|SetupSettings1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|SetupSettings1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|SetupSettings1|Files Found]
+
+[Package|SetupSettings1|Files Released]
+
+[Package|SetupSettings1|Missing Dependency Information]
+D:\ESRI\arcexe81\ArcObjects Developer Kit\Utilities\ErrorHandlerUI.dll=
+D:\ESRI\arcexe81\Bin\esriCore.olb=
+D:\ESRI\ArcGIS\arcexe82\ArcObjects Developer Kit\Utilities\ErrorHandlerUI.dll=
+D:\ESRI\ArcGIS\arcexe82\Bin\esriCore.olb=
+
+[Package|SetupSettings1|Out-of-Date Dependency Information]
+
+[Package|SetupSettings1|Files Added]
+d:\odnr_geology\vb_projects\odnr_geo1.reg=
+
+[Package|SetupSettings1|Files Removed]
+d:\esri\arcexe81\arcobjects developer kit\utilities\errorhandlerui.dll=
+d:\esri\arcexe81\bin\esricore.olb=
+d:\esri\arcgis\arcexe82\arcobjects developer kit\utilities\errorhandlerui.dll=
+d:\esri\arcgis\arcexe82\bin\esricore.olb=
+
+[Package|SetupSettings1|Files In Project]
+D:\ODNR_Geology\VB_Projects\Compiled\ODNR_Geo1.dll=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\ODNR_Geology\VB_Projects\ODNR_Geo1.reg=Yes
+D:\ESRI\ArcGIS\arcexe82\Bin\esriCore.olb=No
+D:\ESRI\ArcGIS\arcexe82\ArcObjects Developer Kit\Utilities\ErrorHandlerUI.dll=No
+
+[Package|SetupSettings1|Configure Registry Files]
+Applicable=Yes
+D:\ODNR_Geology\VB_Projects\ODNR_Geo1.reg=Both
+
+[Package|SetupSettings1|Configure Remote Servers]
+Applicable=No
+
+[Package|SetupSettings1|Install Locations]
+D:\ODNR_Geology\VB_Projects\Compiled\ODNR_Geo1.dll=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\ODNR_Geology\VB_Projects\ODNR_Geo1.reg=$(AppPath)
+
+[Package|SetupSettings1|Configure Shared Files]
+Applicable=Yes
+D:\ODNR_Geology\VB_Projects\Compiled\ODNR_Geo1.dll=Yes
+D:\ODNR_Geology\VB_Projects\ODNR_Geo1.reg=No
+
+[Package|SetupSettings1|Distribution]
+Type=single
+Size=
+Title=ODNR Geology Applications v.1b
+
+[Package|SetupSettings1|Package]
+PackageFolder=D:\ODNR_Geology\VB_Projects\Package
+ProjectFolder=D:\ODNR_Geology\VB_Projects
+ServerSideCab=
+File1=D:\ODNR_Geology\VB_Projects\Package\setup.exe
+File2=D:\ODNR_Geology\VB_Projects\Package\Setup.Lst
+File3=D:\ODNR_Geology\VB_Projects\Package\ODNR_Geo1.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
